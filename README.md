@@ -1,3 +1,5 @@
+Live Preview: https://milano-patel.github.io/VanillaJS-form-validator/
+
 Intro: Form validation using Vanilla Javascript.
 
 Learning: JavaScript RegEx and Event object
