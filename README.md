@@ -4,7 +4,7 @@ Simple client side form validation. Check requird, length, email and password ma
 
 ## Live Preview: 
 
-https://milano-patel.github.io/VanillaJS-form-validator/
+https://milano-patel.github.io/vanillaJS-form-validator/
 
 ## Project Specifications
 
