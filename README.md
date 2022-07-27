@@ -2,7 +2,7 @@
 
 Simple client side form validation. Check requird, length, email and password match
 
-## Live Preview: 
+## Live Preview:
 
 https://milano-patel.github.io/vanillaJS-form-validator/
 
@@ -17,5 +17,5 @@ https://milano-patel.github.io/vanillaJS-form-validator/
 
 ## Credit
 
-Created while Learning the Javascript from Brad Traversy's Udemy Course:
+Created while Learning the Javascript from Brad Traversy's Udemy Course
 https://www.udemy.com/course/web-projects-with-vanilla-javascript/
