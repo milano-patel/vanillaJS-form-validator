@@ -1,6 +1,21 @@
-Intro: Form validation using Vanilla Javascript.
+## Form Validator (Intro Project)
 
-Learning: JavaScript RegEx and Event object
+Simple client side form validation. Check requird, length, email and password match
 
-Credit: Created while Learning the Javascript from Brad Traversy's Udemy Course:
+## Live Preview: 
+
+https://milano-patel.github.io/vanillaJS-form-validator/
+
+## Project Specifications
+
+- Create form UI
+- Show error messages under specific inputs
+- checkRequired() to accept array of inputs
+- checkLength() to check min and max length
+- checkEmail() to validate email with regex
+- checkPasswordsMatch() to match confirm password
+
+## Credit
+
+Created while Learning the Javascript from Brad Traversy's Udemy Course:
 https://www.udemy.com/course/web-projects-with-vanilla-javascript/
