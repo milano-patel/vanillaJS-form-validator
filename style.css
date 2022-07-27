@@ -1,34 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-    --success-color:#2ecc71;
-    --error-color:#e74c3c;
+    --success-color: #2ecc71;
+    --error-color: #e74c3c;
 }
 
 * {
     box-sizing: border-box;
 }
 
-body { 
-    background-color:rgb(131, 133, 133); 
-    font-family: 'Open Sans', sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(227, 223, 218);
 }
 
 .container {
-    background-color: rgb(230, 223, 223);
+    background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, .3);
-    width: 500px;
+    width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
     text-align: center;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
+    color: rgb(38, 76, 152);
 }
 
 .form {
@@ -42,23 +45,23 @@ h2 {
 }
 
 .form-control label {
-    color: #777;
+    color: rgb(38, 76, 152);
     display: block;
     margin-bottom: 5px;
 }
 
 .form-control input {
-    width: 100%;
+    display: block;
     border: 2px solid #f0f0f0;
     border-radius: 4px;
-    display: block;
+    width: 100%;
     padding: 10px;
     font-size: 14px;
 }
 
 .form-control input:focus {
-    outline: none;
-    border-color: #777;
+    outline: 0;
+    border-color: rgb(38, 76, 152);
 }
 
 .form-control.success input {
@@ -77,20 +80,18 @@ h2 {
     visibility: hidden;
 }
 
-.form-control.error small{
+.form-control.error small {
     visibility: visible;
 }
 
 .form button {
     cursor: pointer;
-    background-color: #3498db;
-    border: 2px solid #3498db;
-    border-radius: 4px;
+    background-color: rgb(38, 76, 152);
     color: #fff;
-    display: block;   
-    font-size: 16px;
+    border: none;
+    border-radius: 4px;
     padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
     width: 100%;
-    text-align: center;
-    outline: none;
 }
